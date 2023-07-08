@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "ReportAttended";
+}
+
+<h1>ReportAttended</h1>
+<ul>
+    @foreach (var employee in ViewBag.employees)
+    {
+        <li>@employee.Name</li>
+    }
+</ul>
